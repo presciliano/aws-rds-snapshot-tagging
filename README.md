@@ -1,2 +1,2 @@
 # aws-rds-snapshot-tagging
-Script to enable CopyTagsToSnapshot on all RDS clusters and instances
+Script to enable CopyTagsToSnapshot on all RDS clusters and instances. This action can be performed using the console, however, when you have dozens of instances is better to use the script. Read-only permissions required: the script doesn't change anything, just outputs the individual commands for each instance/cluster, which then will require permissions to write the tags.
